@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "source": "",
+  "noise": [
+    {
+      "music": 2499,
+      "shouting": 731,
+      "party": 653,
+      "banging": 351,
+      "tv": 194,
+      "other": 131,
+      "barking": 101,
+      "alarm": 70,
+      "diy": 51,
+      "building": 46,
+      "licensed": 8,
+      "blank": 8
+    }
+  ]
+}
