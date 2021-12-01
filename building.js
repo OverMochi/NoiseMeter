@@ -34,7 +34,7 @@ function setup() {
 
 
 function moveToHome (){
-  window.open("home.html","_self");
+  window.open("index.html","_self");
 }
 
 
