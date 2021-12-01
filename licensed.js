@@ -9,7 +9,7 @@ function preload(){
 var noiseData;
 var data;
 function getData(){
-  data = noiseData.noise[0].banging;
+  data = noiseData.noise[0].licensed;
   return data;
 }
 
@@ -56,30 +56,23 @@ function draw() {
   fill('#4c4c4c');
   textAlign(CENTER,CENTER);
   textSize(16);
-  text('Banging on walls/ceiling/floor noise nuisance report',400,50);
+  text('Licensed noise nuisance report',400,50);
 
 }
-
-
 
 class Scale{
   constructor(){
   	this.x = random(250, 1150);
   	this.y = random(40, 780);
   	this.d = random(10,15);
-  	this.speed = 0.08;
-
+  	this.speed = 0.1;
   }
 
   show(){
     colorMode(RGB);
-    push();
     fill(47,39,255,trans);
     noStroke();
     ellipse(this.x, this.y, this.d);
-    //trans += 0.05;
-    pop();
-
     this.x += random(-this.speed, this.speed);
     this.y += random(-this.speed, this.speed);
   }

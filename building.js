@@ -9,7 +9,7 @@ function preload(){
 var noiseData;
 var data;
 function getData(){
-  data = noiseData.noise[0].banging;
+  data = noiseData.noise[0].building;
   return data;
 }
 
@@ -56,11 +56,9 @@ function draw() {
   fill('#4c4c4c');
   textAlign(CENTER,CENTER);
   textSize(16);
-  text('Banging on walls/ceiling/floor noise nuisance report',400,50);
+  text('Building noise nuisance report',400,50);
 
 }
-
-
 
 class Scale{
   constructor(){
