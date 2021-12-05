@@ -75,6 +75,7 @@ function setup() {
 var around = [];
 function draw() {
   //background(0);
+  clear();
 
   image(map,0,0, map.width*0.45, map.height*0.45);
 
